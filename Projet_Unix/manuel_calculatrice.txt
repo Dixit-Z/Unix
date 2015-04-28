@@ -1,0 +1,11 @@
+Vous pouvez entrer n'importe quel chiffre et n'importe quel opérande. Lorsque vous entrez un opérande le calcul aura lieu sur les valeurs des deux paliers les plus hauts.
+La liste des opérandes possible est :
+	+) Addition
+	-) Soustraction
+	*) Multiplication
+	/) Division
+	**) Puissance
+La liste des caractères spéciaux est:
+	"man") Afficher le manuel
+	"u") Annuler la dernière action
+	"q") Quitter la calculatrice

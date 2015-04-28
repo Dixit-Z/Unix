@@ -1,0 +1,41 @@
+#Auteur : Bruno TRINTA
+#Mailto : bruno.trinta@isty.uvsq.fr
+#Date : Février 2015
+#Note : Commentaires en français.
+
+Le script annaire_tel.sh se lance sans arguments. Au lancement un menu est disponible où il est possible de :
+-Créer un contact
+-Lister les contacts
+-Rechercher un contact (Nom)
+-Rechercher un numéro
+-Modifier un contact (Modifier numéro)
+-Supprimer un contact
+-Quitter
+
+Ce script créer un dossier contact_list, qui est le répertoire avec tous les contacs.
+
+Des fichiers temporaires peuvent être créés lors de l'utilisation de ce script mais seront supprimés à la fin de ce dernier.
+
+Dans cette première version sont proposées des redirections. Si vous chercher un contact qui n'existe pas, on vous propose de le créer. Cependant vous devez re-rentrer le nom du contact que vous recherchiez. Il existe de nombreuses redirections.
+
+Dans la prochaine version, il sera possible d'importer un carnet de contact (où un contact est un fichier nommé "nom_contact" et contenant le numéro du contact). Les redirections prendront en compte les entrées de l'utilisateur.
+
+Par exemple:
+
+Vous recherchez Paul mais il n'existe pas dans le répertoire. Voulez-vous le créer? Si oui, le numéro de Paul est demandé. Vous n'aurez pas à ré-entrer son nom.
+
+OU
+
+Plusieurs contact ont le même numéro que vous recherchiez, on vous propose d'en supprimer. Vous n'aurez qu'à rentrer le numéro qui correspond au nom pour supprimer ce(s) contact(s).
+
+Tous les commentaires et fichiers annexes seront en anglais.
+
+UPDATE 27/02/2015
+
+You may now import contacts from a directory from the menu. 
+Calls to function have been worked.
+
+
+UPDATE 27/03/2015
+
+We fixed the bug that allowed you to create a contact named : " ". You can only use numbers and letters to name a contact.

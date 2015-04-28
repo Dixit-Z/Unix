@@ -1,0 +1,25 @@
+#Auteur : Bruno TRINTA
+#Mailto : bruno.trinta@isty.uvsq.fr
+#Date : Février 2015
+#Note : Ce programme est commenté en anglais, comme le seront tous mes codes lorsqu'ils auront été notés ainsi que les fichiers annexes.
+
+Le script anti_triche.sh prend en arguments plusieurs autres scripts (2 ou plus) et les compare. Une copie des scripts est créée dans le dossier saves car les scripts originaux seront modifiés.
+
+Il créer un rapport contenant le rapport des différences trier en ordre croissant et l'affiche.
+
+Dans cette première version, on ne compare que de manière simple deux scripts, ligne par ligne en y cherchant des différences. Il permet alors de savoir si deux scripts sont identiques malgré les noms de variables différents, les commentaires, l'indentation etc...
+Il est alors facile de tromper ce script en inversant la place de deux fonctions par exemple.
+
+Dans la prochaine version, le script vérifiera, grâce à un tri supplémentaire et malgré l'emplacement des différents éléments dans le code, si les codes sont sensiblement les mêmes. Tous les commentaires et fichiers annexes seront en anglais.
+
+UPDATE 28/02/2015
+
+This script is now comparing all the words of the scripts, no matter the order of the functions/structures/etc..
+
+UPDATE 23/03/2015
+
+This script is no longer modifying your original scripts.
+It's using temporary files which are deleted right after the end of the script.
+To make sure you're not losing information due to an external error, we are still saving a copy of the scripts in the directory saves.
+Please be aware, if you have a directory named "tmp" in the folder of the script, it will be erased.
+Be careful, the previous rapport will be erased when using our script.

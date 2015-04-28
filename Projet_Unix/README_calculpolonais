@@ -1,0 +1,28 @@
+#Auteur : Bruno TRINTA
+#Mailto : bruno.trinta@isty.uvsq.fr
+#Date : Février 2015
+#Note : Commentaires en français.
+
+Ce script réalise une calculatrice à 4 étages. Tous ces étages sont initialisés à 0. Vous pouvez à tout moment entrer un chiffre ou un opérateur.
+
+Entrer un chiffre aura pour effet de le placer sur le premier étage, chaque chiffre sera rétrogradé d'un étage. Le chiffre du dernier étage sera perdu.
+Entrer un opérateur aura pour effet de consommer les deux premiers étages et d'entrer le résultat sur le premier étage. Le chaque étage en dessous du deuxième est alors regradé d'un étage. Le dernier étage est réinitialiser à 0.
+
+Attention, il n'est pas possible de diviser par 0 et les divions sont entières.
+
+Pour quitter le script il suffit d'entrer la lettre "q".
+
+Dans la prochaine version, il sera possible (si demandé) de réaliser des divisions non-entières et donc de réaliser des calculs sur des flottants. Pour éviter de recommencer un calcul complexe à cause d'une faute de frappe, on rajoutera une fonction undo lorsque l'utilisateur appuie sur "u". Cela permettra de revenir au stade précédent. (Undo réalisable une seule fois). La prochaine version restera en français.
+
+MAJ 28/02/2015
+
+La fonction undo est maintenant disponible. Elle est utilisable une seule et unique fois après chaque action. L'utiliser avant toute action n'est pas possible non plus.
+
+MAJ 23/03/2015
+
+Correction d'une erreur de programmation qui ne permettait pas de rentrer directement un chiffre négatif dans la pile.
+La calculatrice autorise maintenant le calcul de puissance **.
+Pour connaitre les opérandes possible tapez "man" dans la calculatrice.
+Le script vous propose d'enregistrer le manuel s'il ne l'est pas encore.
+Lors d'une entrée non valide on ré-affiche la pile des chiffres.
+

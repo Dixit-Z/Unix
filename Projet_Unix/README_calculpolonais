@@ -12,8 +12,6 @@ Attention, il n'est pas possible de diviser par 0 et les divions sont entières.
 
 Pour quitter le script il suffit d'entrer la lettre "q".
 
-Dans la prochaine version, il sera possible (si demandé) de réaliser des divisions non-entières et donc de réaliser des calculs sur des flottants. Pour éviter de recommencer un calcul complexe à cause d'une faute de frappe, on rajoutera une fonction undo lorsque l'utilisateur appuie sur "u". Cela permettra de revenir au stade précédent. (Undo réalisable une seule fois). La prochaine version restera en français.
-
 MAJ 28/02/2015
 
 La fonction undo est maintenant disponible. Elle est utilisable une seule et unique fois après chaque action. L'utiliser avant toute action n'est pas possible non plus.

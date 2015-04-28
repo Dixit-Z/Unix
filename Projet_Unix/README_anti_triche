@@ -1,7 +1,6 @@
 #Auteur : Bruno TRINTA
 #Mailto : bruno.trinta@isty.uvsq.fr
 #Date : Février 2015
-#Note : Ce programme est commenté en anglais, comme le seront tous mes codes lorsqu'ils auront été notés ainsi que les fichiers annexes.
 
 Le script anti_triche.sh prend en arguments plusieurs autres scripts (2 ou plus) et les compare. Une copie des scripts est créée dans le dossier saves car les scripts originaux seront modifiés.
 

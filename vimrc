@@ -15,13 +15,13 @@ runtime! debian.vim
 " options, so any other options should be set AFTER setting 'compatible'.
 "set compatible
 
-" Vim5 and later versions support syntax highlighting. Uncommenting the next
-" line enables syntax highlighting by default.
-syntax on
+"Mes préférences"
 
-" If using a dark background within the editing area and syntax highlighting
-" turn on this option as well
-set background=dark
+set background=dark;
+set smartindent;
+set number;
+"I should uncomment this when starting a new project"
+set mouse=a;
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file

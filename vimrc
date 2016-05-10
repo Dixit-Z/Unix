@@ -17,11 +17,11 @@ runtime! debian.vim
 
 "Mes préférences"
 
-set background=dark;
-set smartindent;
-set number;
+set background=dark
+set smartindent
+set number
 "I should uncomment this when starting a new project"
-set mouse=a;
+set mouse=a
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
